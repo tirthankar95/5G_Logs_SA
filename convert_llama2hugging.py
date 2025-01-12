@@ -9,13 +9,17 @@ logging.basicConfig(
 )
 
 local_dir = "/mnt/d/Desktop/HuggingFaceModels/meta-llama/"
-model_name = "Llama3.2-1B-Instruct-int4-qlora-eo8/"
+model_name = "Llama3.2-1B/"
 
 tokenizer = AutoTokenizer.from_pretrained(local_dir + model_name)
-state_dict = torch.load(local_dir + model_name + "consolidated.00.pth")
+state_dict = torch.load(local_dir + model_name + "consolidated.00.pth", \
+                        map_location=torch.device('cpu'))
 # Load the model configuration.
-config = LlamaConfig.from_pretrained(local_dir + model_name + "params.json")
+config = LlamaConfig.from_pretrained(local_dir + model_name + "config.json")
 # Initialize the model with the configuration
+'''
+Doesn't work, downloads some big model. 
+'''
 model = LlamaForCausalLM(config)
 # Load the model weights
 model.load_state_dict(state_dict)

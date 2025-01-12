@@ -1,4 +1,0 @@
-[DEBUG] Everything is working properly.
-[INFO] Is there a reason for this happening.
-[WARNING] This is really bad!!
-[ERROR] Very dangerous.

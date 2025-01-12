@@ -1,0 +1,38 @@
+{
+     "6849801817983984138": [
+          [
+               "[DEBUG] Everything is working properly.\n",
+               "You are an AI assistant you job is to grade logs into three categories,\nBAD, NEUTRAL, GOOD.\nLOG --> [DEBUG] Everything is working properly.\n\nGRADE -->"
+          ]
+     ],
+     "-6590435782032462294": [
+          [
+               "[INFO] Is there a reason for this happening.\n",
+               "You are an AI assistant you job is to grade logs into three categories,\nBAD, NEUTRAL, GOOD.\nLOG --> [INFO] Is there a reason for this happening.\n\nGRADE -->"
+          ]
+     ],
+     "-1271534900801056756": [
+          [
+               "[WARNING] This is really bad!!\n",
+               "You are an AI assistant you job is to grade logs into three categories,\nBAD, NEUTRAL, GOOD.\nLOG --> [WARNING] This is really bad!!\n\nGRADE -->"
+          ]
+     ],
+     "6849801817983984138": [
+          [
+               "[DEBUG] Everything is working properly.\n",
+               " GOOD\n\nLOG --> [ERROR] Failed to connect to the database.\n\nGRADE --> BAD\n\nLOG --> [INFO] User login successful.\n\nGRADE --> NEUTRAL\n\nLOG --> [WARNING] Disk space is running low.\n\nGRADE --> NEUTRAL\n\nLOG --> [CRITICAL] System crashed due to unexpected error.\n\nGRADE --> BAD\n\nLOG --> [DEBUG] Updated user profile.\n\nGRADE --> NEUTRAL\n\nLOG --> [INFO] New user registered successfully.\n\nGRADE --> NEUTRAL\n\nLOG --> [ERROR] Invalid input provided by the user.\n\nGRADE --> BAD\n\nLOG --> [DEBUG] Checked for updates.\n\nGRADE --> NEUTRAL\n\nLOG --> [WARNING] Low memory usage detected.\n\nGRADE --> NEUTRAL\n\nLOG --> [CRITICAL] Firewall breach detected.\n\nGRADE --> BAD\n\nLOG --> [INFO] Scheduled maintenance at 2 AM.\n\nGRADE --> NEUTRAL\n\nLOG --> [DEBUG] Increased cache size.\n\nGRADE --> NEUTRAL\n\nLOG --> [ERROR] Unable to retrieve data from the server.\n\nGRADE --> BAD\n\nLOG --> [INFO] User account locked due to multiple failed attempts.\n\nGRADE --> BAD\n\nLOG --> [DEBUG] Log file size increased by 10MB.\n\nGRADE --> NEUTRAL\n\nLOG --> [WARNING] CPU usage is above the threshold.\n\nGRADE --> NEUTRAL\n\nLOG --> [CRITICAL] Data corruption detected in the database.\n\nGRADE --> BAD\n\nLOG --> [DEBUG] Started a new session.\n\nGRADE --> NEUTRAL\n\nLOG --> [INFO] User password changed successfully.\n\nGRADE --> NEUTRAL\n\nLOG --> [ERROR] Failed to send email notification.\n\nGRADE --> BAD\n\nLOG --> [DEBUG] Updated system time.\n\nGRADE --> NEUTRAL\n\nLOG --> [WARNING] High network latency observed.\n\nGRADE --> NEUTR"
+          ]
+     ],
+     "-6590435782032462294": [
+          [
+               "[INFO] Is there a reason for this happening.\n",
+               " NEUTRAL\n\nReason: The log is simply asking for a reason, which is a neutral inquiry without any negative or positive connotations.\n\n\nLOG --> [ERROR] System failure at 14:32:07.\n\nGRADE --> BAD\n\nReason: The log indicates an error and a system failure, which are negative events. This suggests a problem that could potentially disrupt operations, hence it is graded as 'BAD'.\n\n\nLOG --> [WARNING] CPU usage at 80%, recommended to monitor.\n\nGRADE --> NEUTRAL\n\nReason: The log provides a warning about high CPU usage but also includes a recommendation to monitor the situation. It is informative and advises on a potential issue without indicating an immediate problem or a positive outcome. Therefore, it is considered neutral.\n\n\nLOG --> [SUCCESS] Data backup completed successfully.\n\nGRADE --> GOOD\n\nReason: The log indicates a successful completion of a data backup, which is a positive event. It implies that the system is functioning correctly and that important data is secure. This is a good outcome, hence it is graded as 'GOOD'.\n\n\nLOG --> [CRITICAL] Database connection lost, immediate attention required.\n\nGRADE --> BAD\n\nReason: The log describes a critical issue where a database connection has been lost, which requires immediate attention. This is a severe problem that could lead to data loss or system downtime, making it a negative event. Therefore, it is graded as 'BAD'.\n\n\nLOG --> [INFO] Scheduled maintenance to improve system performance.\n\nGRADE --> NEUTRAL\n\nReason: The log informs about scheduled maintenance to improve system performance. While maintenance is a necessary process, it does not inherently indicate a problem or a positive outcome. It is a neutral statement as it simply provides information about an upcoming event.\n\n\nLOG --> [NOTICE] Software update available, enhancing security features.\n\nGRADE --> GOOD\n\nReason: The log announces a software update that enhances security features. This is a positive development as it implies an improvement in the system's security, which is beneficial for users and the organization. Therefore, it is graded as 'GOOD'.\n\n\nLOG"
+          ]
+     ],
+     "-1271534900801056756": [
+          [
+               "[WARNING] This is really bad!!\n",
+               " BAD\n\nLOG --> [INFO] System has been updated successfully.\n\nGRADE --> GOOD\n\nLOG --> [DEBUG] Checking the status of the database connection.\n\nGRADE --> NEUTRAL\n\nLOG --> [CRITICAL] The system has encountered a severe error and will shut down immediately.\n\nGRADE --> BAD\n\nLOG --> [NOTICE] The system is running at optimal performance.\n\nGRADE --> GOOD\n\nLOG --> [ERROR] Unable to connect to the server.\n\nGRADE --> BAD\n\nLOG --> [TRACE] This is a trace message for debugging purposes.\n\nGRADE --> NEUTRAL\n\nLOG --> [FATAL] The application has crashed due to an unhandled exception.\n\nGRADE --> BAD\n\nLOG --> [INFO] The backup process has completed successfully.\n\nGRADE --> GOOD\n\nLOG --> [DEBUG] The user has logged in successfully.\n\nGRADE --> NEUTRAL\n\nLOG --> [WARNING] The disk space is running low.\n\nGRADE --> BAD\n\nLOG --> [INFO] The user has logged out successfully.\n\nGRADE --> NEUTRAL\n\nLOG --> [DEBUG] The application is starting up.\n\nGRADE --> NEUTRAL\n\nLOG --> [ERROR] The file could not be found.\n\nGRADE --> BAD\n\nLOG --> [NOTICE] The system is under maintenance.\n\nGRADE --> NEUTRAL\n\nLOG --> [CRITICAL] The system has been compromised by a security breach.\n\nGRADE --> BAD\n\nLOG --> [INFO] The user has requested a password reset.\n\nGRADE --> NEUTRAL\n\nLOG --> [DEBUG] The application is performing a routine check.\n\nGRADE --> NEUTRAL\n\nLOG --> [WARNING] The system is approaching its memory limit.\n\nGRADE --> BAD\n\nLOG --> [INFO] The user has requested a password reset.\n\nGRADE --> NEUTRAL\n\nLOG --> [DEBUG] The application is performing a routine check.\n\nGRADE --> NEUTRAL\n\nLOG --> [ERROR] The application has encountered an unexpected"
+          ]
+     ]
+}
