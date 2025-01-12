@@ -32,7 +32,7 @@ def get_latest_version():
     return versions[-1]
 
 latest = get_latest_version() + 1
-NUMBER_OF_SENTENCE = 100000
+NUMBER_OF_SENTENCE = 5000
 indices = [random.randint(0, len(template_logs)-1) for _ in range(NUMBER_OF_SENTENCE)]
 with open(f"5G_logs_v{latest}.txt", "a") as txt_file:
     for index in indices:

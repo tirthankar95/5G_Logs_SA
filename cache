@@ -1,0 +1,90 @@
+{
+     "-1789042103657554368": [
+          [
+               "Uplink Throughput: 1024 kbps\n",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ],
+     "-2978583621552087175": [
+          [
+               "UE 1 - RACH Process: success\n",
+               [
+                    "VERY GOOD"
+               ]
+          ]
+     ],
+     "-7882938347956160261": [
+          [
+               "UE 0 - Connection Status: connected\n",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ],
+     "-8356338159335447721": [
+          [
+               "Uplink Throughput: 2048 kbps\n",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ],
+     "8589532110802468793": [
+          [
+               "UE 1 - Connection Status: disconnected\n",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ],
+     "4913013010960887742": [
+          [
+               "UE 2 - RACH Process: unsuccessful \n",
+               [
+                    "BAD"
+               ]
+          ]
+     ],
+     "3299570693337958349": [
+          [
+               "Downlink Throughput: 1024 kbps\n",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ],
+     "-2890883498257952645": [
+          [
+               "UE 1 - RACH Process: unsuccessful\n",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ],
+     "-6499381309491189598": [
+          [
+               "UE 0 - RACH Process: success\n",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ],
+     "8389245219098615709": [
+          [
+               "Downlink Throughput: 2048 kbps\n",
+               [
+                    "VERY GOOD"
+               ]
+          ]
+     ],
+     "9089661583201998717": [
+          [
+               "UE 0 - Connection Status: connected",
+               [
+                    "NEUTRAL"
+               ]
+          ]
+     ]
+}

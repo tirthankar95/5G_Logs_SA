@@ -1,0 +1,68 @@
+{
+     "-945955326215167989": [
+          [
+               "Uplink Throughput: 1024 kbps\n",
+               " GOOD"
+          ]
+     ],
+     "-5278754295429337316": [
+          [
+               "UE 1 - RACH Process: success\n",
+               " GOOD"
+          ]
+     ],
+     "1378857500146311670": [
+          [
+               "UE 0 - Connection Status: connected\n",
+               " GOOD"
+          ]
+     ],
+     "8413993738766173219": [
+          [
+               "Uplink Throughput: 2048 kbps\n",
+               " GOOD"
+          ]
+     ],
+     "-4137362776499993350": [
+          [
+               "UE 1 - Connection Status: disconnected\n",
+               " BAD"
+          ]
+     ],
+     "822332994528041914": [
+          [
+               "UE 2 - RACH Process: unsuccessful \n",
+               " BAD"
+          ]
+     ],
+     "-4087007671655477905": [
+          [
+               "Downlink Throughput: 1024 kbps\n",
+               " GOOD"
+          ]
+     ],
+     "-4682318076129048370": [
+          [
+               "UE 1 - RACH Process: unsuccessful\n",
+               " BAD"
+          ]
+     ],
+     "-4090498472549882547": [
+          [
+               "UE 0 - RACH Process: success\n",
+               " GOOD"
+          ]
+     ],
+     "-4391936202713364039": [
+          [
+               "Downlink Throughput: 2048 kbps\n",
+               " GOOD"
+          ]
+     ],
+     "-8790170127024620168": [
+          [
+               "UE 0 - Connection Status: connected",
+               " GOOD"
+          ]
+     ]
+}
