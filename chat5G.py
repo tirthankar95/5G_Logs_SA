@@ -48,5 +48,6 @@ rag_chain = (
     | StopHallucinations
 )
 def ask_me_anything(query, history):
+    print(history)
     return rag_chain.invoke(query)
 # ========================================================== #
